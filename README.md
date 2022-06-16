@@ -14,7 +14,11 @@ Set the following environment variables:
 
 ## Run
 
-Now it should be possible to build the project by.
+Now it should be possible to build the project and running the unit tests by calling
+
+```bash
+./build.sh
+```
 
 ## License
 

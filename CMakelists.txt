@@ -28,3 +28,6 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(module1)
+
+add_custom_target(allTests
+  module1Tests)
